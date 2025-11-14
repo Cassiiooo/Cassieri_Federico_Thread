@@ -1,3 +1,11 @@
+/**
+*@author Federico Cassieri 
+*@version 1.0
+*
+*<p> 
+*Thread che simula la fase di rilegatura del libro.
+<\p>
+*/
 public class ThreadRilegatura extends Thread{
     @Override
     public void run(){
