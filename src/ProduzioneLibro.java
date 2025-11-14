@@ -1,6 +1,15 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/**
+*@author Federico Cassieri 
+*@version 1.0
+*
+*<p> 
+*Questa classe gestisce la produzione di uno o più libri.
+*Ogni libro è composto da due fasi pricipali: stampa delle pagine e rilegatura.
+*Ogni fase è eseguita da un thread separato.
+<\p>
+*/
 public class ProduzioneLibro{
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
