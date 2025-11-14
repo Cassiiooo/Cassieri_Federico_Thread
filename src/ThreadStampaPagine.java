@@ -1,3 +1,11 @@
+/**
+*@author Federico Cassieri 
+*@version 1.0
+*
+*<p> 
+*Thread che simula la fase di stanpa delle pagine del libro.
+<\p>
+*/
 public class ThreadStampaPagine extends Thread{
     @Override
     public void run(){
